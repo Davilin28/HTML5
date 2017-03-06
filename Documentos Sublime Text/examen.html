@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="primavera, verano, estacion">
+	<script type="text/javascript">
+		function Primavera() {
+			var p;
+
+			p = document.getElementById("Color");
+			p.style.color= "green";
+		}
+		function Verano() {
+			var p;
+
+			p = document.getElementById("Tamaño");
+			p.style.fontSize= "40pt";
+		}
+	</script>
+</head>
+<body>
+	<img src="../imagenes/verde.jpg" onclick="Primavera()">
+	<img src="../imagenes/red.png" onclick="Verano()">
+	<br>
+	<p id="Color">
+		Color verde
+	</p>
+	<br>
+	<p id="Tamaño">
+		Tamaño
+	</p>
+</body>
+</html>
