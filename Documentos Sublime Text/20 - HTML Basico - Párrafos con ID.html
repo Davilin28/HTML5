@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Párrafos con parrafos con ID</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/estiloID.css">
+	<script type="text/javascript">
+		function CambiarParrafo() {
+			var p;
+
+			p = document.getElementById('parrafo1');
+
+			p.innerHTML = "So closed";
+		}
+	</script>
+</head>
+<body>
+<p id="parrafo1" align="center">
+	Cloud 9
+</p>
+
+<img id="imagen1" 
+	 src="../imagenes/cl9.png" onclick="CambiarParrafo()">
+
+<br>
+
+<p id="parrafo2" align="center">
+	Ninjas in Pijamas
+</p>
+
+<img id="imagen2" 
+	 src="../imagenes/nip.png">
+</body>
+</html>

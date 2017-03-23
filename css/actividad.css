@@ -1,0 +1,33 @@
+#titulo{
+	background-color: red;
+	color: blue;
+	font-weight: bold;
+	font-size: 30pt;
+	text-align: center;
+}
+#img1{
+	width: 250px;
+	height: 150px;
+}
+#parrafo1{
+	font-size: 14pt;
+}
+#parrafo2{
+	font-size: 14	pt;
+}
+#parrafo3{
+	font-size: 10pt;
+}
+#parrafo4{
+	font-size: 10pt;
+}
+#img2{
+	width: 200px;
+	height: 100px;
+}
+#pie{
+	background-color: Darkmagenta;
+	color: aqua;
+	text-align: center;
+	font-size: 24pt;
+}
