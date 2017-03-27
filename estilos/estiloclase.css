@@ -1,0 +1,13 @@
+.Cabecera{
+	background-color:  #76d7c4;
+	color: black;
+	text-align: center;
+	font-size: 22pt;
+	font-weight: bold;
+	width: auto;
+	height: 100px;
+}
+.Texto{
+	color: blue;
+	font-size: 12pt;
+}

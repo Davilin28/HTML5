@@ -6,6 +6,9 @@ function acierto() {
 
 	p = document.getElementById("resultado1");
 	p.innerHTML = "1";
+
+	p = document.getElementById("imagen");
+	p.src="../imagenes/ok.jpg";
 }
 
 function fallo() {
@@ -16,6 +19,9 @@ function fallo() {
 
 	p = document.getElementById("resultado1");
 	p.innerHTML = "0";
+
+	p = document.getElementById("imagen");
+	p.src="../imagenes/down.jpg";
 }
 
 function acierto1() {
@@ -26,6 +32,9 @@ function acierto1() {
 
 	p = document.getElementById("resultado2");
 	p.innerHTML = "1";
+
+	p = document.getElementById("imagen1");
+	p.src="../imagenes/ok.jpg";
 }
 
 function fallo1() {
@@ -36,4 +45,10 @@ function fallo1() {
 
 	p = document.getElementById("resultado2");
 	p.innerHTML = "0";
+
+	p = document.getElementById("imagen1");
+	p.src="../imagenes/down.jpg";
+}
+function actualizar() {
+	location.reload();
 }

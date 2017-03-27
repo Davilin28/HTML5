@@ -7,13 +7,17 @@
 	<script type="text/javascript" src="../Script/actividad.js"></script>
 </head>
 <body>
-<h1 id="titulo">Adivina la serie</h1>
+<h1 id="titulo">Adivina la serie <img id="home" align="right" src="../imagenes/home.jpeg" onclick="actualizar()"></h1>
+
+<br>
 
 <img id="img1" src="../imagenes/twd.jpeg">
 
 <p id="parrafo1" onclick="acierto()">
 	The Walking Dead
 </p>
+
+<img class="imagenes" id="imagen" src="" alt="Esperando resultado">
 
 <p id="parrafo2" onclick="fallo()">
 	CSI Las Vegas
@@ -27,10 +31,14 @@
 	The Walking Dead
 </p>
 
+<img class="imagenes" id="imagen1" src="" alt="Esperando resultado">
+
 <p id="parrafo4" onclick="acierto1()">
 	CSI Las Vegas
 </p>
+
 <br>
+
 <p id="pie">
 	Acierto
 	<span id="resultado1"></span>

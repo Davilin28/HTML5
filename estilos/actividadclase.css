@@ -1,0 +1,14 @@
+.contenedor{
+	text-align: center;
+}
+.Imagen{
+	width: 400px;
+	height: 200px;
+}
+.Texto{
+	background-color: #a1887f ;		/*Marron*/
+	color: #c8e6c9; 			/*Verde claro*/
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+}
