@@ -1,6 +1,6 @@
 #titulo{
-	background-color: red;
-	color: blue;
+	background-color: #00ff80;		/* Verde*/
+	color: #797d7f ;			/* Gris */
 	font-weight: bold;
 	font-size: 30pt;
 	text-align: center;
@@ -13,7 +13,7 @@
 	font-size: 14pt;
 }
 #parrafo2{
-	font-size: 14	pt;
+	font-size: 14pt;
 }
 #parrafo3{
 	font-size: 10pt;
@@ -30,4 +30,16 @@
 	color: aqua;
 	text-align: center;
 	font-size: 24pt;
+}
+#imagen{
+	width: 50px;
+	height: 50px
+}
+#imagen1{
+	width: 50px;
+	height: 50px
+}
+#home{
+	width: 50px;
+	height: 50px;
 }
