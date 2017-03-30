@@ -1,5 +1,5 @@
 function acierto() {
-	var p;
+	var p, img;
 
 	p = document.getElementById("parrafo1");
 	p.style.color= "green";
@@ -7,12 +7,12 @@ function acierto() {
 	p = document.getElementById("resultado1");
 	p.innerHTML = "1";
 
-	p = document.getElementById("imagen");
-	p.src="../imagenes/ok.jpg";
+	img = document.getElementById("imagen");
+	img.src="../imagenes/ok.jpg";
 }
 
 function fallo() {
-	var p;
+	var p, img;
 
 	p = document.getElementById("parrafo2");
 	p.style.color= "red";
@@ -20,12 +20,12 @@ function fallo() {
 	p = document.getElementById("resultado1");
 	p.innerHTML = "0";
 
-	p = document.getElementById("imagen");
-	p.src="../imagenes/down.jpg";
+	img = document.getElementById("imagen");
+	img.src="../imagenes/down.jpg";
 }
 
 function acierto1() {
-	var p;
+	var p, img;
 
 	p = document.getElementById("parrafo4");
 	p.style.color= "green";
@@ -33,12 +33,12 @@ function acierto1() {
 	p = document.getElementById("resultado2");
 	p.innerHTML = "1";
 
-	p = document.getElementById("imagen1");
-	p.src="../imagenes/ok.jpg";
+	img = document.getElementById("imagen1");
+	img.src="../imagenes/ok.jpg";
 }
 
 function fallo1() {
-	var p;
+	var p, img;
 
 	p = document.getElementById("parrafo3");
 	p.style.color= "red";
@@ -46,8 +46,8 @@ function fallo1() {
 	p = document.getElementById("resultado2");
 	p.innerHTML = "0";
 
-	p = document.getElementById("imagen1");
-	p.src="../imagenes/down.jpg";
+	img = document.getElementById("imagen1");
+	img.src="../imagenes/down.jpg";
 }
 function actualizar() {
 	location.reload();
