@@ -1,0 +1,18 @@
+hr{
+	border-width: 3px;
+	border-color: red;
+	border-style: solid;
+	width: 300px;
+}
+h1{
+	background-color: green;
+	font-size: 24pt;
+	font-weight: bold;
+	color: white;
+}
+h2{
+	background-color: white;
+	font-size: 22pt;
+	font-weight: bold;
+	color: darkmagenta;
+}

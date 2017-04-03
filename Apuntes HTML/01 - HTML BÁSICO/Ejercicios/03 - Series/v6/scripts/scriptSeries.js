@@ -42,3 +42,6 @@ function Errores(idRespuesta,idImagen)
 	numeroFallos ++;
 	p2.innerHTML = numeroFallos;
 }
+function actualizar() {
+	location.reload();
+}
