@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formato de texto</title>
+	<meta charset="utf-8">
+	<style type="text/css" media="screen">
+		body{
+			text-align: center;
+		}
+		#sub{
+			text-decoration: underline;
+			color: green;
+		}
+		#fuenteNueva{
+			font-family: Verdana;
+			font-size: 18pt;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+
+<h1>Aplicando formatos a los textos: b,i,u</h1>
+<p>
+	<li>Este texto se encuentra <b>en negrita</b> </li><br>
+	<li>Este texto se encuentra <i>en cursiva</i> </li><br>
+	<li>Este texto se encuentra <u>en subrayado</u></li> <br>
+	<li>Este va 
+	<span style="color: green;">
+		subrayado y verde
+	</span>
+	<span id="sub" style="color: red;">
+		subrayado y en rojo
+	</span>
+</p>
+
+<h1>Aplicando formatos a los textos: sub, sup</h1>
+<p>
+	<li>La ecuacion es:
+	X<sub>i</sub> = X <sup>2</sup> + Y <sub>3</sub></li>
+</p>
+
+<h1>Aplicando formatos de fuente: font</h1>
+<p>
+	<li>Para cambiar la fuente utilizamos</li><br>
+	<font face="Verdana" size="6" color="#0000FA">
+		En verdana 18 y azul
+	</font><br>
+
+	<li>Para cambiar la fuente con CSS utilizamos</li><br>
+	<span id="fuenteNueva">
+		En verdana 18 y rojo
+	</span>
+		
+</p>
+</body>
+</html>
