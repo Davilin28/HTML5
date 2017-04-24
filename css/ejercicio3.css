@@ -1,0 +1,17 @@
+.principal{
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+
+.contenedor dt{
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.contenedor dd{
+	color: blue;
+	font-size: 10pt;
+	font-style: italic;
+}
