@@ -1,0 +1,19 @@
+h1 {
+	font-weight: bold;
+}
+h2 {
+	background-color: red;
+	color: white;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+ul a li {
+	font-size: 14pt;
+	font-weight: bold;
+	color:   #c887b6;  /* Color Purple*/
+}
+
+a{
+	text-decoration: none;
+}
