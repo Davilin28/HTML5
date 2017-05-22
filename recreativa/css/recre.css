@@ -1,0 +1,26 @@
+.general{
+	background-color: green;
+}
+.parrafos{
+	font-size: 16pt;
+}
+.limon{
+	width: 50px;
+	height: 40px;
+}
+.result{
+	background-color: orange;
+}
+.images img {
+	width: 50px;
+	height: 40px;
+}
+.par1 span{
+	background-color: gray;
+}
+.parraf {
+	text-align: center;
+}
+.parraf a{
+	text-decoration: none;
+}
