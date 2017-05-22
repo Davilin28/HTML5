@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juego Recreativa - Juego</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/recre.css">
+	<script type="text/javascript" src="../js/recrejs.js"></script>
+</head>
+<body>
+<div class="Cabecera">
+	<img class="Icono" src="../imagenes/Limon.png" alt="">
+	<a href="Inicio.html">Inicio</a> 
+	<a href="Juego.html">Juego</a>
+	<a href="Acercade.html">Acerca de...</a>
+</div>
+<h1>Juego</h1>
+<div  class="TextoMarcador">
+	Marcador Actual
+</div>
+<div class="ValorMarcador" id="MarcadorActual">
+	0
+</div>
+<div class="TextoMarcador">
+	Tirada Actual
+</div>
+<div class="ValorMarcador" id="TiradaActual">
+	0
+</div>
+<br>
+<img class="Iconos" src="../imagenes/Fresa.png" alt="" id="imagen1">
+<img class="Iconos" src="../imagenes/Limon.png" alt="" id="imagen2" >
+<img class="Iconos" src="../imagenes/Sandia.png" alt="" id="imagen3">
+<br>
+<br>
+<button onclick="Reiniciar();">Reiniciar</button>
+<button onclick="Guardar();">Guardar Tirada</button>
+<button>Jugar</button>
+<br>
+<button onclick="CambiarImagen('imagen1');">Cambiar 1</button>
+<button onclick="CambiarImagen('imagen2');">Cambiar 2</button>
+<button onclick="CambiarImagen('imagen3');">Cambiar 3</button>
+</body>
+</html>

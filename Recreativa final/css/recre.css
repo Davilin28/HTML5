@@ -1,0 +1,29 @@
+.Cabecera{
+	background-color: green;
+}
+.Icono{
+	width: 50px;
+	height: 40px;
+}
+.Iconos{
+	width: 80px;
+	height: 70px;
+}
+.acerca{
+	text-align: center;
+}
+.acerca a{
+	text-decoration: none;
+}
+.TextoMarcador{
+
+	width: 200px;
+	text-align: center;
+
+}
+.ValorMarcador{
+
+	width: 200px;
+	text-align: right;
+	background-color: orange;
+}
