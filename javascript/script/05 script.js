@@ -1,19 +1,20 @@
-function CalcularRango() {
-	var edad, res, numEdad;
+function CalcularRango(){
+	// Creación de variable edad
+	var edad,
+	    res,
+	    numeroEdad;
 
 	res = document.getElementById('resultado');
 	edad = document.getElementById('edadActual');
-	numEdad = parseInt(edad.innerHTML);
-	
-	if ((numEdad >= 0) && (numEdad <=12))
-		res.innerHTML = "En la infancia";
-	else
-		if ((numEdad >= 13) && (numEdad <=17))
-		res.innerHTML = "En la adolescencia";
-	else
-		if ((numEdad >= 18) && (numEdad <=26))
-		res.innerHTML = "En la juventud";
-	else
-		if ((numEdad >= 27)
-		res.innerHTML = "En la adulto";
+	numeroEdad = parseInt(edad.value);
+		if((numeroEdad>=0) && (numeroEdad<=12))
+			res.innerHTML = "En la infancia";
+	else 
+		if ((numeroEdad>=13) && (numeroEdad<=17))
+			res.innerHTML = "En la adolescencia";
+	else 
+ 		if ((numeroEdad>=18) && (numeroEdad<=30))
+ 			res.innerHTML = "En la juventud";
+	else 
+	 		res.innerHTML = "En la adulta";
 }

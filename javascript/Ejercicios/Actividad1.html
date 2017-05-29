@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Actividad</title>
+	<title>Edad de persona</title>
 	<meta charset="utf-8">
-	<script type="text/javascript" src="../script/05 script.js"></script>
+	<script type="text/javascript" src="../script/06 script.js"></script>
 </head>
 <body>
-<button>Dia</button>
+<p>Introduce tu fecha de nacimiento<br>
+Dia: <input type="text" id="diaNac"> <br>
+Mes: <input type="text" id="mesNac"> <br>
+Ano: <input type="text" id="anoNac"> <br>
+</p>
+<p>Introduce la fecha actual<br>
+Dia: <input type="text" id="diaAct"> <br>
+Mes: <input type="text" id="mesAct"> <br>
+Ano: <input type="text" id="anoAct"> <br>
+</p>
+<p id="resultado">...</p>
+<button onclick="CalcularEdad()">Calcular Fecha</button>
 </body>
 </html>
