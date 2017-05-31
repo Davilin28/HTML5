@@ -10,15 +10,7 @@ function CalcularDiaSiguiente()
 
     // Comprobar los casos en que el día es el último 
     // del mes
-
-    
-
-
-
-
-
-
-
+  
     if( (diaActual==30) && 
         ((mesActual==4) || (mesActual==6) || 
          (mesActual==9) || (mesActual==11)))
